@@ -53,6 +53,9 @@ extension MainView {
 
         dividerView.translatesAutoresizingMaskIntoConstraints = false
         dividerView.backgroundColor = .secondarySystemFill
+        
+        layer.cornerRadius = 5
+        clipsToBounds = true
 
     }
 
